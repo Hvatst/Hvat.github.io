@@ -81,8 +81,12 @@ span.bigred{
 	font-weight: bold;
 		font-size: 22px;
 		color: #0000ff;
+		text-decoration: line-through;
 }
-
+.li5{
+	font-size: 28px;
+	color: green;
+}
 .contact{
 	font-weight: bold;
 }
