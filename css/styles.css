@@ -71,6 +71,39 @@ span.bigred{
 	padding: 10px 20px;
 	width:300px;
 }
+
+.foto.big:hover{
+	padding: 10px 20px;
+	width:2000px;
+	display: block;
+
+}
+.close {
+	position: absolute;
+	right: 15px;
+	top: -5px;
+	width: 32px;
+	height: 32px;
+	opacity: 0.3;
+}
+.close:hover {
+	opacity: 1;
+}
+.close:before, .close:after{
+	position: absolute;
+	left: 15px;
+	content: '';
+	height: 33px;
+	width: 2px;
+	background-color: #333;
+}
+.close:before {
+	transform: rotate(45deg);
+}
+
+.close:after {
+	transform: rotate(-45deg);
+}
 .ful{
 	background: rgba(224,255,255,1);
 }
@@ -81,8 +114,11 @@ span.bigred{
 	font-weight: bold;
 		font-size: 22px;
 		color: #0000ff;
-		text-decoration: line-through;
+	/*	text-decoration: line-through;*/
+	display: block;
 }
+
+
 .li5{
 	font-size: 28px;
 	color: green;
@@ -98,4 +134,9 @@ span.bigred{
 	border: 10px solid #ece89d;
 	border-radius: 10px;
 	position: fixed;
+	display: block;
+}
+.b_1:hover{
+	display: none;
+
 }
