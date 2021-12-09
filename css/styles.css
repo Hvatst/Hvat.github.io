@@ -74,7 +74,7 @@ span.bigred{
 
 .foto.big:hover{
 	padding: 10px 20px;
-	width:2000px;
+	width:100%;
 	display: block;
 
 }
@@ -104,29 +104,31 @@ span.bigred{
 .close:after {
 	transform: rotate(-45deg);
 }
-.ful{
+.ful {
 	background: rgba(224,255,255,1);
+	clear: left;
 }
-.big{
+.big {
 	font-weight: bold;
 }
-.big1{
+.big1 {
 	font-weight: bold;
 		font-size: 22px;
 		color: #0000ff;
 	/*	text-decoration: line-through;*/
-	display: block;
+
+
 }
 
 
-.li5{
+.li5 {
 	font-size: 28px;
 	color: green;
 }
-.contact{
+.contact {
 	font-weight: bold;
 }
-.b_1{
+.b_1 {
 	position: absolute;
 	background-color: #ece89d;
 	top: 180px;
@@ -136,7 +138,8 @@ span.bigred{
 	position: fixed;
 	display: block;
 }
-.b_1:hover{
-	display: none;
+.price {
+	text-decoration: underline; 
+	font-size: 22px;
 
 }
